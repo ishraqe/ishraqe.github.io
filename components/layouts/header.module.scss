@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 6rem;
+  color: rgb(65, 64, 64);
+  font-size: 1.6rem;
+}
+
+.logo-container {
+}
+.logo {
+  font-size: 2rem;
+}
+.nav-menu {
+  display: flex;
+}
+.nav-list {
+  display: flex;
+  list-style: none;
+  font-size: 1.8rem;
+  font-weight: 600;
+  li {
+    padding: 0 2rem;
+  }
+}

@@ -1,0 +1,35 @@
+.services__card {
+  display: flex;
+  margin-top: 9rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  &--item {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 29%;
+  }
+  &--img {
+    margin-bottom: 2.5rem;
+  }
+  &--heading {
+    margin: 1rem 0;
+    color: #0d0c22;
+    font-size: 2.2rem;
+    line-height: 3.2rem;
+    font-weight: 600;
+  }
+  &--p {
+    margin-top: 1.4rem;
+    margin-bottom: 4rem;
+    color: #5c5b66;
+    line-height: 2.6rem;
+  }
+  &--link {
+    margin-top: auto;
+    transition: opacity 0.2s ease-in-out;
+    color: #0d0c22;
+    font-weight: 600;
+    text-decoration: none;
+  }
+}

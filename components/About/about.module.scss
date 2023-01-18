@@ -1,0 +1,21 @@
+.section__about {
+  display: flex;
+  &--intro {
+    flex: 1;
+    &--desc {
+      margin-top: 3rem;
+      color: #0d0c22;
+      margin-bottom: 0.5rem;
+      font-size: 1.6rem;
+      line-height: 2.6rem;
+    }
+  }
+  &--img--container {
+    flex: 1;
+    background-color: red;
+    position: relative;
+    margin-left: 80px;
+    background-position: 0 0;
+    background-size: cover;
+  }
+}
