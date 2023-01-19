@@ -3,7 +3,7 @@ import styles from "./services.module.scss";
 
 const index = () => {
   return (
-    <section className={`section-padding`}>
+    <section className="section-padding">
       <h2 className="section-intro">What I do</h2>
       <div className={styles["services__card"]}>
         <div className={styles["services__card--item"]}>

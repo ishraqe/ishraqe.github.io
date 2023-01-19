@@ -3,18 +3,19 @@ import Header from "./header";
 
 const index = ({ children }) => {
   return (
-    <div className="container">
+    <>
       <Header />
       <main
         style={{
           marginTop: "6rem"
         }}
+        className="container"
       >
         {children}
       </main>
 
       <Footer />
-    </div>
+    </>
   );
 };
 

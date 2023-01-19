@@ -4,26 +4,44 @@ import SectionIntro from "components/utils/section-intro";
 import styles from "./projects.module.scss";
 const index = () => {
   return (
-    <section className="container section-padding">
-      <SectionIntro text="Featured projects" />
+    <section className="section-padding">
+      <SectionIntro text="Work Experience" />
       <div className={styles["section__projects--conatiner"]}>
         <div className={styles["section__projects--item"]}>
           <div className={styles["section__projects--item--desc"]}>
-            <h4>Multiple Sweatcoin Features</h4>
-            <div className={styles["section__projects--item--tag"]}>
-              Mobile Design, iOS, Android
+            <h4>Speedhome Sdn. Bhd. - Malaysia</h4>
+            <div className={styles["roles-container"]}>
+              <div className={styles["section__projects--item--tag"]}>
+                Lead Front-End Developer - Feb 2021 - Present
+              </div>
+              <p>
+                Sweatcoin is an app with 100M+ users that rewards you for steps.
+                I joined Sweatcoin in May 2021 and since then continue creating
+                amazing features together with the Growth Team.
+                <br />
+                <br />
+                Each feature we work on goes through a lot of testing &
+                experiments, making my work at Sweatcoin really dynamic and
+                interesting.
+              </p>
             </div>
-            <p>
-              Sweatcoin is an app with 100M+ users that rewards you for steps. I
-              joined Sweatcoin in May 2021 and since then continue creating
-              amazing features together with the Growth Team.
-              <br />
-              <br />
-              Each feature we work on goes through a lot of testing &
-              experiments, making my work at Sweatcoin really dynamic and
-              interesting.
-            </p>
-            <a>See more projects on my Dribbble</a>
+            <br />
+            <br />
+            <div className={styles["roles-container"]}>
+              <div className={styles["section__projects--item--tag"]}>
+                Lead Front-End Developer - Feb 2021 - Present
+              </div>
+              <p>
+                Sweatcoin is an app with 100M+ users that rewards you for steps.
+                I joined Sweatcoin in May 2021 and since then continue creating
+                amazing features together with the Growth Team.
+                <br />
+                <br />
+                Each feature we work on goes through a lot of testing &
+                experiments, making my work at Sweatcoin really dynamic and
+                interesting.
+              </p>
+            </div>
           </div>
           <div className={styles["section__projects--item--img--container"]}>
             <div className={styles["section__projects--item--img--wrapper"]}>
@@ -38,21 +56,22 @@ const index = () => {
         </div>
         <div className={styles["section__projects--item"]}>
           <div className={styles["section__projects--item--desc"]}>
-            <h4>Multiple Sweatcoin Features</h4>
-            <div className={styles["section__projects--item--tag"]}>
-              Mobile Design, iOS, Android
+            <h4>Tga Limited - Bangladesh</h4>
+            <div className={styles["roles-container"]}>
+              <div className={styles["section__projects--item--tag"]}>
+                Lead Front-End Developer - Feb 2021 - Present
+              </div>
+              <p>
+                Sweatcoin is an app with 100M+ users that rewards you for steps.
+                I joined Sweatcoin in May 2021 and since then continue creating
+                amazing features together with the Growth Team.
+                <br />
+                <br />
+                Each feature we work on goes through a lot of testing &
+                experiments, making my work at Sweatcoin really dynamic and
+                interesting.
+              </p>
             </div>
-            <p>
-              Sweatcoin is an app with 100M+ users that rewards you for steps. I
-              joined Sweatcoin in May 2021 and since then continue creating
-              amazing features together with the Growth Team.
-              <br />
-              <br />
-              Each feature we work on goes through a lot of testing &
-              experiments, making my work at Sweatcoin really dynamic and
-              interesting.
-            </p>
-            <a>See more projects on my Dribbble</a>
           </div>
           <div className={styles["section__projects--item--img--container"]}>
             <div className={styles["section__projects--item--img--wrapper"]}>

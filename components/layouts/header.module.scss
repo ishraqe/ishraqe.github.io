@@ -1,9 +1,13 @@
 .header {
   height: 6rem;
+  z-index: 99;
   position: fixed;
   left: 0;
   top: 0;
   width: 100%;
+  background-color: #fff;
+  transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
 }
 .nav__container {
   display: flex;
@@ -21,6 +25,7 @@
 }
 .nav-menu {
   display: flex;
+  align-items: center;
 }
 .nav-list {
   display: flex;
@@ -29,5 +34,15 @@
   font-weight: 600;
   li {
     padding: 0 2rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    &:hover {
+      color: #000;
+    }
   }
+}
+.active {
+  box-shadow: 0.2rem 0.2rem 1rem 0.1rem rgb(0 0 0 / 2%),
+    4px 4px 20px 1px rgb(0 0 0 / 3%), 7px 7px 40px 3px rgb(0 0 0 / 5%);
+  opacity: 0.9;
 }

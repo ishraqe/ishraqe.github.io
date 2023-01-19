@@ -1,7 +1,7 @@
 .intro-container {
   display: flex;
   align-items: center;
-  height: 85vh;
+  height: 70vh;
 }
 .info-container {
   flex: 2;
@@ -13,11 +13,29 @@
     font-size: 36px;
   }
 }
+.social_icon_container {
+  padding: 2.5rem 0 1rem 0;
+}
 .image-container {
   flex: 1.5;
   height: 100%;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-wrapper {
+  position: relative;
+  height: 45rem;
+  width: 45rem;
 }
 .btn__container {
   display: flex;
+  margin-top: 4rem;
+}
+.scroll-more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }

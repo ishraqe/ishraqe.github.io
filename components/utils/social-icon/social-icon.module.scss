@@ -1,0 +1,19 @@
+.social-icons-block {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+}
+.social-link {
+  margin-right: 20px;
+  cursor: pointer;
+  -webkit-transition: opacity 0.2s ease-in-out,
+    -webkit-transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out,
+    -webkit-transform 0.2s ease-in-out;
+
+  &:hover {
+    margin-top: -2px;
+  }
+}
+.contact-icon-svg {
+}
