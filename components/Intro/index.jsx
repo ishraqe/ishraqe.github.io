@@ -10,6 +10,10 @@ const Intro = () => {
             I&apos;m a freelance UX/UI Designer with a marketing background
             specializing in Shopify & Webflow.
           </h1>
+          <div className={styles["btn__container"]}>
+            <button className="btn btn-outline">My Work</button>
+            <button className="btn btn-filled">Let&apos;s Talk</button>
+          </div>
         </div>
         <div className={styles["image-container"]}>
           <div className={styles["image-wrapper"]}>hello</div>

@@ -5,7 +5,14 @@ const index = ({ children }) => {
   return (
     <div className="container">
       <Header />
-      {children}
+      <main
+        style={{
+          marginTop: "6rem"
+        }}
+      >
+        {children}
+      </main>
+
       <Footer />
     </div>
   );

@@ -1,10 +1,17 @@
 .header {
+  height: 6rem;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.nav__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 6rem;
-  color: rgb(65, 64, 64);
   font-size: 1.6rem;
+  color: rgb(65, 64, 64);
+  height: 100%;
 }
 
 .logo-container {

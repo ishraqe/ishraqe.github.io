@@ -3,7 +3,9 @@ import SectionIntro from "components/utils/section-intro";
 
 const index = () => {
   return (
-    <section className={`section-padding ${styles["section__about"]}`}>
+    <section
+      className={`container section-padding ${styles["section__about"]}`}
+    >
       <div className={styles["section__about--intro"]}>
         <SectionIntro text="About" />
         <p className={styles["section__about--intro--desc"]}>
