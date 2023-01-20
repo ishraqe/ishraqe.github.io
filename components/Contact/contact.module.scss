@@ -1,6 +1,6 @@
 .contact-container {
   display: flex;
-  margin-top: 60px;
+  margin-top: 6rem;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: flex-start;
@@ -8,17 +8,17 @@
 .contact-text {
   flex: 0 0 50%;
   p {
-    max-width: 420px;
+    max-width: 42rem;
     color: #0d0c22;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 1.8rem;
+    line-height: 3rem;
   }
   .subtext-contact {
-    margin-top: 60px;
-    padding-bottom: 2px;
+    margin-top: 6rem;
+    padding-bottom: 0.2rem;
     color: #a4a4a4;
-    font-size: 14px;
-    line-height: 23px;
+    font-size: 1.4rem;
+    line-height: 2.3rem;
   }
   .email-link-container {
     -webkit-transition: -webkit-transform 0.2s ease-in-out;
@@ -55,52 +55,52 @@
     text-align: right;
   }
   .contact-form-main {
-    margin: 0 0 15px;
+    margin: 0 0 1.5rem;
   }
   form {
     display: block;
     margin-top: 0em;
   }
   h5 {
-    margin: 10px 0;
-    font-size: 17px;
-    line-height: 20px;
+    margin: 1rem 0;
+    font-size: 1.7rem;
+    line-height: 2rem;
     font-weight: 700;
   }
   input {
     width: 100%;
     margin-right: 0;
-    margin-bottom: 24px;
+    margin-bottom: 2.4rem;
     margin-left: auto;
-    padding: 24px 20px;
+    padding: 2.4rem 2rem;
     border-color: rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+    border-radius: 0.5rem;
     color: #5c5b66;
-    font-size: 16px;
-    line-height: 25px;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
     text-align: left;
   }
   textarea {
     width: 100%;
-    min-height: 128px;
-    margin-bottom: 24px;
+    min-height: 12.8rem;
+    margin-bottom: 2.4rem;
     margin-left: auto;
-    padding-top: 10px;
-    padding-right: 20px;
-    padding-left: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    border: 0.1rem solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
     color: #5c5b66;
-    font-size: 16px;
-    line-height: 25px;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
     text-align: left;
     font: inherit;
   }
   button {
-    height: 48px;
-    margin-top: 40px;
-    padding: 0 24px;
-    border-radius: 5px;
+    height: 4.8rem;
+    margin-top: 4rem;
+    padding: 0 2.4rem;
+    border-radius: 0.5rem;
     background-color: #fff;
     background-image: -webkit-gradient(
       linear,
@@ -112,7 +112,8 @@
     border-color: #ff8d4d;
     background-image: linear-gradient(90deg, #ff8d4d, #f4494e);
     box-shadow: 0.1rem 0.1rem 0.8rem 0.1rem rgb(0 0 0 / 2%),
-      3px 3px 15px 2px rgb(0 0 0 / 4%), 6px 6px 20px 4px rgb(0 0 0 / 5%);
+      0.3rem 0.3rem 1.5rem 0.2rem rgb(0 0 0 / 4%),
+      0.6rem 0.6rem 2rem 0.4rem rgb(0 0 0 / 5%);
 
     transition: box-shadow 0.2s ease-in-out, color 0.2s ease-in-out,
       opacity 0.2s ease-in-out;
