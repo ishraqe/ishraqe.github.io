@@ -35,6 +35,10 @@
   position: relative;
   height: 45rem;
   width: 45rem;
+  @media only screen and (max-width: 56.25em) {
+    height: 35rem;
+    width: 35rem;
+  }
 }
 .btn__container {
   display: flex;

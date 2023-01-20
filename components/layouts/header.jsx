@@ -1,9 +1,10 @@
 import { useState, useEffect } from "react";
 import styles from "./header.module.scss";
-import Image from "next/image";
+import { Turn as Hamburger } from "hamburger-react";
 
 const Header = () => {
   const [scrollY, setScrollY] = useState(0);
+  const [isOpen, setOpen] = useState(false);
 
   useEffect(() => {
     function watchScroll() {
@@ -14,6 +15,10 @@ const Header = () => {
       window.removeEventListener("scroll", logit);
     };
   }, []);
+
+  const toggleMobileMenu = () => {
+    setOpen(!isOpen);
+  };
 
   function logit() {
     setScrollY(window.pageYOffset);
@@ -45,15 +50,39 @@ const Header = () => {
             </ul>
             <button className="btn btn-filled">Resume</button>
             <a className={styles["nav-menu-icon"]}>
-              <Image
-                src="/img/nav-menu.png"
-                alt="nav-menu"
-                height={40}
-                width={40}
-              />
+              <Hamburger toggled={isOpen} toggle={toggleMobileMenu} />
             </a>
           </div>
         </div>
+      </div>
+      <div
+        className={`${styles["nav-mobile-menu"]} ${
+          isOpen ? styles["nav-mobile-menu-open"] : ""
+        }`}
+      >
+        <Hamburger toggled={isOpen} toggle={toggleMobileMenu} />
+        <ul className={styles["nav-list"]}>
+          <li>
+            <a onClick={toggleMobileMenu} href="#about-section">
+              About
+            </a>
+          </li>
+          <li>
+            <a onClick={toggleMobileMenu} href="#services-section">
+              Services
+            </a>
+          </li>
+          <li>
+            <a onClick={toggleMobileMenu} href="#portfolio-section">
+              Portfolio
+            </a>
+          </li>
+          <li>
+            <a onClick={toggleMobileMenu} href="#contact-section">
+              Contact
+            </a>
+          </li>
+        </ul>
       </div>
     </header>
   );
