@@ -4,7 +4,7 @@ import SectionIntro from "components/utils/section-intro";
 import styles from "./projects.module.scss";
 const index = () => {
   return (
-    <section className="section-padding">
+    <section className="section-padding" id="portfolio-section">
       <SectionIntro text="Work Experience" />
       <div className={styles["section__projects--conatiner"]}>
         <div className={styles["section__projects--item"]}>

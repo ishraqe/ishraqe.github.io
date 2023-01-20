@@ -27,7 +27,9 @@ const Intro = () => {
         </div>
       </div>
       <div className={styles["scroll-more"]}>
-        <Image src="/img/scroll.png" height={55} width={55} alt="scroll" />
+        <a href="#about-section">
+          <Image src="/img/scroll.png" height={55} width={55} alt="scroll" />
+        </a>
       </div>
     </section>
   );

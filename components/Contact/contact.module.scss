@@ -4,6 +4,12 @@
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: flex-start;
+  @media only screen and (max-width: 56.25em) {
+    flex-direction: column;
+    .contact-text-icons {
+      display: none;
+    }
+  }
 }
 .contact-text {
   flex: 0 0 50%;
@@ -43,16 +49,14 @@
   text-align: right;
   .contact-form-container {
     display: block;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
+
     flex-direction: column;
-    -webkit-box-align: end;
-    -webkit-align-items: flex-end;
-    -ms-flex-align: end;
+
     align-items: flex-end;
     text-align: right;
+    @media only screen and (max-width: 56.25em) {
+      margin-top: 4rem;
+    }
   }
   .contact-form-main {
     margin: 0 0 1.5rem;
@@ -63,9 +67,16 @@
   }
   h5 {
     margin: 1rem 0;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     line-height: 2rem;
     font-weight: 700;
+    display: none;
+    color: #5c5b66;
+    @media only screen and (max-width: 56.25em) {
+      display: block;
+      text-align: left;
+      margin-bottom: 2rem;
+    }
   }
   input {
     width: 100%;
@@ -88,7 +99,7 @@
     padding-top: 1rem;
     padding-right: 2rem;
     padding-left: 2rem;
-    border: 0.1rem solid rgba(0, 0, 0, 0.1);
+    border: 0.3rem solid rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
     color: #5c5b66;
     font-size: 1.6rem;
@@ -129,5 +140,23 @@
         0.3rem 0.3rem 1rem 0.4rem rgb(0 0 0 / 5%);
       transform: translateY(-0.1rem);
     }
+    @media only screen and (max-width: 56.25em) {
+      width: 100%;
+      margin-top: 2rem;
+      height: 5.8rem;
+      margin-bottom: 4rem;
+    }
+  }
+}
+.social-icons-div {
+  span {
+    color: #5c5b66;
+    font-size: 1.6rem;
+  }
+}
+
+.contact-form-icons {
+  @media only screen and (min-width: 56.25em) {
+    display: none;
   }
 }

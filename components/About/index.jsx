@@ -5,6 +5,7 @@ const index = () => {
   return (
     <section
       className={`container section-padding ${styles["section__about"]}`}
+      id="about-section"
     >
       <div className={styles["section__about--intro"]}>
         <SectionIntro text="About" />

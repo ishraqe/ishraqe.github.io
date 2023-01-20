@@ -7,7 +7,7 @@ const index = ({ children }) => {
       <Header />
       <main
         style={{
-          marginTop: "6rem"
+          marginTop: "8rem"
         }}
         className="container"
       >

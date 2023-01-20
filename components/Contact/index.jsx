@@ -3,7 +3,7 @@ import styles from "./contact.module.scss";
 import SocialIconBlock from "components/utils/social-icon/social-icon";
 const index = () => {
   return (
-    <section className="section-padding">
+    <section className="section-padding" id="contact-section">
       <SectionIntro text={"Just say hi."} />
       <div className={styles["contact-container"]}>
         <div className={styles["contact-text"]}>
@@ -15,7 +15,9 @@ const index = () => {
           <div className={styles["email-link-container"]}>
             <a>hi@kristina.marketing</a>
           </div>
-          <div className={styles["social-icons-div"]}>
+          <div
+            className={`${styles["social-icons-div"]} ${styles["contact-text-icons"]}`}
+          >
             <SocialIconBlock />
           </div>
         </div>
@@ -35,7 +37,10 @@ const index = () => {
             </div>
           </div>
         </div>
-        <div className={styles["social-icons-div"]}>
+        <div
+          className={`${styles["social-icons-div"]} ${styles["contact-form-icons"]}`}
+        >
+          <span>Follow</span>
           <SocialIconBlock />
         </div>
       </div>

@@ -32,10 +32,14 @@
   list-style: none;
   font-size: 1.8rem;
   font-weight: 600;
+  @media only screen and (max-width: 56.25em) {
+    display: none;
+  }
   li {
     padding: 0 2rem;
     cursor: pointer;
     transition: all 0.2s;
+    color: #6e6d7a;
     &:hover {
       color: #000;
     }
@@ -43,6 +47,13 @@
 }
 .active {
   box-shadow: 0.2rem 0.2rem 1rem 0.1rem rgb(0 0 0 / 2%),
-    0.4rem 0.4rem 2rem 0.1rem rgb(0 0 0 / 3%), .7rem .7rem 4rem .3rem rgb(0 0 0 / 5%);
+    0.4rem 0.4rem 2rem 0.1rem rgb(0 0 0 / 3%),
+    0.7rem 0.7rem 4rem 0.3rem rgb(0 0 0 / 5%);
   opacity: 0.9;
+}
+.nav-menu-icon {
+  display: none;
+  @media only screen and (max-width: 900px) {
+    display: inline-block;
+  }
 }

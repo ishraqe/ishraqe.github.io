@@ -1,5 +1,9 @@
 .section__about {
   display: flex;
+
+  @media only screen and (max-width: 56.25em) {
+    flex-direction: column;
+  }
   &--intro {
     flex: 1;
     &--desc {
@@ -17,5 +21,12 @@
     background-position: 0 0;
     background-size: cover;
     border-radius: 1.6rem;
+    @media only screen and (max-width: 56.25em) {
+      height: 50rem;
+      width: 100%;
+      margin: 0;
+      margin-top: 2rem;
+      flex: none;
+    }
   }
 }

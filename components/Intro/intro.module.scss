@@ -2,6 +2,10 @@
   display: flex;
   align-items: center;
   height: 70vh;
+  @media only screen and (max-width: 37.5em) {
+    flex-direction: column;
+    height: 60vh;
+  }
 }
 .info-container {
   flex: 2;
@@ -23,6 +27,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  @media only screen and (max-width: 37.5em) {
+    display: none;
+  }
 }
 .image-wrapper {
   position: relative;

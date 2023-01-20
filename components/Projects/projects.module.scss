@@ -10,6 +10,10 @@
     flex-wrap: wrap;
     align-items: flex-start;
     height: 55rem;
+    @media only screen and (max-width: 56.25em) {
+      height: 100%;
+      flex-direction: column;
+    }
     h4 {
       margin: 1rem 0;
       color: #0d0c22;
@@ -39,6 +43,14 @@
           border-radius: 1.6rem;
           left: -1.4rem;
           top: -0.1rem;
+          @media only screen and (max-width: 56.25em) {
+            left: -1.5rem;
+            top: 0.3rem;
+          }
+          @media only screen and (max-width: 37.5em) {
+            left: -1.35rem;
+            top: 0.3rem;
+          }
         }
       }
     }
@@ -71,12 +83,26 @@
         text-align: right;
         height: 100%;
         position: relative;
+        @media only screen and (max-width: 56.25em) {
+          flex: none;
+          height: 55rem;
+          width: 100%;
+          margin-top: 6rem;
+
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
       }
       &--wrapper {
         position: relative;
         height: 100%;
         width: 80%;
         float: right;
+        @media only screen and (max-width: 56.25em) {
+          width: 70%;
+          float: none;
+        }
       }
     }
   }
@@ -91,4 +117,7 @@
   background-color: #5c5b66;
   border-radius: 1.5rem;
   margin-top: 0.7rem;
+  @media only screen and (max-width: 56.25em) {
+    width: 1.5rem;
+  }
 }

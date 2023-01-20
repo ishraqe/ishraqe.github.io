@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import styles from "./header.module.scss";
+import Image from "next/image";
 
 const Header = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -9,7 +10,6 @@ const Header = () => {
       window.addEventListener("scroll", logit);
     }
     watchScroll();
-    // Remove listener (like componentWillUnmount)
     return () => {
       window.removeEventListener("scroll", logit);
     };
@@ -18,8 +18,6 @@ const Header = () => {
   function logit() {
     setScrollY(window.pageYOffset);
   }
-
-  console.log("scrollY", scrollY);
 
   return (
     <header
@@ -32,12 +30,28 @@ const Header = () => {
           </div>
           <div className={styles["nav-menu"]}>
             <ul className={styles["nav-list"]}>
-              <li>01. About</li>
-              <li>02. Services</li>
-              <li>03. Portfolio</li>
-              <li>04. Contact</li>
+              <li>
+                <a href="#about-section">About</a>
+              </li>
+              <li>
+                <a href="#services-section">Services</a>
+              </li>
+              <li>
+                <a href="#portfolio-section">Portfolio</a>
+              </li>
+              <li>
+                <a href="#contact-section">Contact</a>
+              </li>
             </ul>
             <button className="btn btn-filled">Resume</button>
+            <a className={styles["nav-menu-icon"]}>
+              <Image
+                src="/img/nav-menu.png"
+                alt="nav-menu"
+                height={40}
+                width={40}
+              />
+            </a>
           </div>
         </div>
       </div>
