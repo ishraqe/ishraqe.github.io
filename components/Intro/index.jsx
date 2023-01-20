@@ -16,8 +16,12 @@ const Intro = () => {
             <SocialIconBlock />
           </div>
           <div className={styles["btn__container"]}>
-            <button className="btn btn-outline">My Work</button>
-            <button className="btn btn-filled">Let&apos;s Talk</button>
+            <a href="#portfolio-section" className="btn btn-outline">
+              My Work
+            </a>
+            <a href="#contact-section" className="btn btn-filled">
+              Let&apos;s Talk
+            </a>
           </div>
         </div>
         <div className={styles["image-container"]}>
