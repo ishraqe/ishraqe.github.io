@@ -1,11 +1,12 @@
 import { useState, useEffect } from "react";
-import styles from "./header.module.scss";
 import { Turn as Hamburger } from "hamburger-react";
+
+import NavMenu from "./NavMenu";
+import styles from "./header.module.scss";
 
 const Header = () => {
   const [scrollY, setScrollY] = useState(0);
   const [isOpen, setOpen] = useState(false);
-
   useEffect(() => {
     function watchScroll() {
       window.addEventListener("scroll", logit);
@@ -16,9 +17,9 @@ const Header = () => {
     };
   }, []);
 
-  const toggleMobileMenu = () => {
+  function toggleMobileMenu() {
     setOpen(!isOpen);
-  };
+  }
 
   function logit() {
     setScrollY(window.pageYOffset);
@@ -34,21 +35,15 @@ const Header = () => {
             <span className={styles["logo"]}>Anamul</span>
           </div>
           <div className={styles["nav-menu"]}>
-            <ul className={styles["nav-list"]}>
-              <li>
-                <a href="#about-section">About</a>
-              </li>
-              <li>
-                <a href="#services-section">Services</a>
-              </li>
-              <li>
-                <a href="#portfolio-section">Portfolio</a>
-              </li>
-              <li>
-                <a href="#contact-section">Contact</a>
-              </li>
-            </ul>
-            <button className="btn btn-filled">Resume</button>
+            <NavMenu toggleMobileMenu={() => {}} />
+            <a
+              href="https://drive.google.com/file/d/1Z34TlXQpZeQ-W_BK2D0KfTAsadCUnRTS/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+              className="btn btn-filled"
+            >
+              Resume
+            </a>
             <a className={styles["nav-menu-icon"]}>
               <Hamburger toggled={isOpen} toggle={toggleMobileMenu} />
             </a>
@@ -61,28 +56,7 @@ const Header = () => {
         }`}
       >
         <Hamburger toggled={isOpen} toggle={toggleMobileMenu} />
-        <ul className={styles["nav-list"]}>
-          <li>
-            <a onClick={toggleMobileMenu} href="#about-section">
-              About
-            </a>
-          </li>
-          <li>
-            <a onClick={toggleMobileMenu} href="#services-section">
-              Services
-            </a>
-          </li>
-          <li>
-            <a onClick={toggleMobileMenu} href="#portfolio-section">
-              Portfolio
-            </a>
-          </li>
-          <li>
-            <a onClick={toggleMobileMenu} href="#contact-section">
-              Contact
-            </a>
-          </li>
-        </ul>
+        <NavMenu toggleMobileMenu={toggleMobileMenu} />
       </div>
     </header>
   );
