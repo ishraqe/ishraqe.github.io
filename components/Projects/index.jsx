@@ -9,7 +9,7 @@ const index = () => {
       <div className={styles["section__projects--conatiner"]}>
         <div className={styles["section__projects--item"]}>
           <div className={styles["section__projects--item--desc"]}>
-            <h4>Speedhome Sdn. Bhd. - Malaysia</h4>
+            <h4>Speedhome Sdn. Bhd - Malaysia</h4>
             <div className={styles["experience-container"]}>
               <div className={styles["timeline"]}></div>
               <div>
