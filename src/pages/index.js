@@ -2,7 +2,7 @@ import Layout from "../../components/layouts";
 import Intro from "../../components/Intro";
 import About from "../../components/About";
 import Services from "../../components/Services";
-import Projects from "../../components/Projects";
+import Experience from "../../components/Experience";
 import Contact from "../../components/Contact";
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
       <Intro />
       <About />
       <Services />
-      <Projects />
+      <Experience />
       <Contact />
     </Layout>
   );

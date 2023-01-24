@@ -7,14 +7,16 @@
   &--item {
     display: flex;
     margin-top: 4rem;
-    padding-bottom: 6rem;
+
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: flex-start;
-    min-height: 55rem;
     @media only screen and (max-width: 56.25em) {
       height: 100%;
       flex-direction: column;
+    }
+    &:not(:last-child) {
+      padding-bottom: 6rem;
     }
     h4 {
       margin: 1rem 0;
@@ -79,6 +81,7 @@
       width: 100%;
       right: 0;
       top: 0;
+
       &--2 {
         height: 25rem !important;
         @media only screen and (max-width: 56.25em) {
@@ -91,8 +94,12 @@
       &--container {
         flex: 0 0 50%;
         text-align: right;
-        height: 55rem;
         position: relative;
+
+        &--1 {
+          height: 55rem;
+        }
+
         @media only screen and (max-width: 56.25em) {
           flex: none;
           height: 55rem;
@@ -104,11 +111,13 @@
           justify-content: center;
         }
       }
+
       &--wrapper {
         position: relative;
         height: 100%;
         width: 80%;
         float: right;
+
         @media only screen and (max-width: 56.25em) {
           width: 70%;
           float: none;
@@ -123,7 +132,7 @@
 }
 
 .timeline {
-  width: 2rem;
+  width: 2rem !important;
   background-color: #5c5b66;
   border-radius: 1.5rem;
   margin-top: 0.7rem;

@@ -10,50 +10,36 @@ const index = () => {
       <div className={styles["section__about--intro"]}>
         <SectionIntro text="About" />
         <p className={styles["section__about--intro--desc"]}>
-          Front-end developer with more than 4 years of experience ,
-          successfully managed and launched three (NextJs web application) and
-          one React Native App. Strength in NextJs and React - Redux ecosystem.
+          Experienced Front-End Developer with more than 4 years in the
+          industry. Proficient with React ecosystem and frameworks(NextJs,
+          React-Native). Having a great passion for front- end development with
+          a good problem-solving aptitude to enhance application performance. I
+          follow the best practices , clean code, writing unit tests.
           <br></br>
-          <br></br>I started my career with TGA Limited (Fromerly known as
-          Freemig Inc.) as a junior front-end developer.
-          <br></br>
-          <br></br>
-          In 2019 I moved from Banglades to Malaysia to persue my career in
-          Speedhome Sdn. Bhd. where grew the most. When I joined there as a
-          junior dev having knowledge of basic html , css , js and react -
-          redux. Gradually I was introduced to lots of aspects to developments ,
-          technically and managerial. I later learned NextJs, Redux-toolkit,
-          Rtk-query, Tailwind, Material Ui. I learned various architecture
-          related stuff, how to improve web application performance, and how to
-          work in an agile and kanban way. How to manage a team and lots of soft
-          skills.
+          <br></br>Im confident with Javascript, ReactJs, NextJs, React-Native ,
+          Typescript, Webpack, Vite, Tailwind CSS, Bootstrap, SPA, SSR and PWA.
+          I also enjoy building API and have good skills in Node.Js, Express.Js
+          , MySQL, MongoDB and other backend development tools.
           <br></br>
           <br></br>
-          The projects that benefited from me will be{" "}
-          <a
-            className="external_link"
-            href="https://speedhome.com"
-            target="_blank"
-            rel="noreferrer"
-          >
-            speedhome.com
-          </a>{" "}
-          and{" "}
-          <a
-            className="external_link"
-            href="https://speedmanage.com"
-            target="_blank"
-            rel="noreferrer"
-          >
-            speedmanage.com
-          </a>
-          I This websites includes a few features like chat request, insurance
-          amount calculation, live chat (built with socket.io), dashboard
-          management, collecting rent (for landlords) etc. We used NextJs,
-          Redux-toolkit , material ui to name a few technologies. For testing we
-          used Jest and Cypress. We did lots of performance improvements
-          throughout the project to serve the website as fast as possible (we
-          achieved around 17% improvement on google pagespeed score).
+          Most of the time, I&apos;ve worked for Startups so that I can work
+          under pressure and know the importance of deadlines. I love to work in
+          a friendly environment where I can learn and contribute to the
+          company&apos;s growth. So far I&apos;m experienced with the following
+          skills:
+          <br></br>
+          <br></br>
+          <ul>
+            <li>
+              * Front-End Development with HTML5, CSS3, JavaScript, ReactJs,
+              NextJs, TypeScript, VueJs, VueX.
+            </li>
+            <li>
+              * Web Application / Restful API development with NodeJs , Express,
+              Laravel.
+            </li>
+            <li>* Mobile Application with React-Native</li>
+          </ul>
         </p>
       </div>
       <div

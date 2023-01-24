@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import SectionIntro from "components/utils/section-intro";
-import styles from "./projects.module.scss";
+import styles from "./experience.module.scss";
 const index = () => {
   return (
     <section className="section-padding" id="portfolio-section">
@@ -73,7 +73,9 @@ const index = () => {
               </div>
             </div>
           </div>
-          <div className={styles["section__projects--item--img--container"]}>
+          <div
+            className={`${styles["section__projects--item--img--container"]} ${styles["section__projects--item--img--container--1"]}`}
+          >
             <div className={styles["section__projects--item--img--wrapper"]}>
               <Image
                 className={styles["section__projects--item--img"]}
@@ -88,7 +90,12 @@ const index = () => {
           <div className={styles["section__projects--item--desc"]}>
             <h4>Tga Limited - Bangladesh</h4>
             <div className={styles["experience-container"]}>
-              <div className={styles["timeline"]}></div>
+              <div
+                className={styles["timeline"]}
+                style={{
+                  width: "1.3rem !important"
+                }}
+              ></div>
               <div>
                 <div className={styles["roles-container"]}>
                   <div className={styles["section__projects--item--tag"]}>

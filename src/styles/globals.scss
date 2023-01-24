@@ -33,6 +33,9 @@ a {
   transition: color 0.2s ease-in-out;
   color: #5c5b66;
 }
+ul {
+  list-style: none;
+}
 
 .container {
   max-width: 120rem;
@@ -45,12 +48,8 @@ a {
 }
 
 .section-padding {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-  @media only screen and (max-width: 56.25em) {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-  }
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 .section-intro {
   margin: 1rem 0;

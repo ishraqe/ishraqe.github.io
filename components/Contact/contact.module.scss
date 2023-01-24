@@ -6,13 +6,21 @@
   align-items: flex-start;
   @media only screen and (max-width: 56.25em) {
     flex-direction: column;
+    flex-basis: 100%;
     .contact-text-icons {
       display: none;
     }
   }
 }
-.contact-text {
+.contact-text,
+.contact-form {
   flex: 0 0 50%;
+  @media only screen and (max-width: 56.25em) {
+    width: 100%;
+  }
+}
+
+.contact-text {
   p {
     max-width: 42rem;
     color: #0d0c22;
@@ -45,7 +53,6 @@
 }
 
 .contact-form {
-  flex: 0 0 50%;
   text-align: right;
   .contact-form-container {
     display: block;

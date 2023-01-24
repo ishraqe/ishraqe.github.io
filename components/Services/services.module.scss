@@ -7,8 +7,8 @@
   &--item {
     display: flex;
     flex-direction: column;
-    flex: 0 0 29%;
-
+    flex: 0 0 48%;
+    margin-bottom: 4rem;
     // @media only screen and (max-width: 56.25em) {
     //   flex-basis: 29%;
     //   text-align: left;
@@ -30,13 +30,11 @@
   }
   &--p {
     margin-top: 1.4rem;
-    margin-bottom: 4rem;
+    margin-bottom: 1.4rem;
     color: #5c5b66;
     line-height: 2.6rem;
-    ul {
-      list-style: none;
-    }
   }
+
   &--link {
     margin-top: auto;
     transition: opacity 0.2s ease-in-out;
