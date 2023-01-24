@@ -1,6 +1,8 @@
 .section__projects {
   &--conatiner {
     background-color: #fff;
+    display: flex;
+    flex-direction: column;
   }
   &--item {
     display: flex;
@@ -29,7 +31,7 @@
       line-height: 2.2rem;
     }
     &--desc {
-      flex: 0 0 40%;
+      flex: 0 0 50%;
       .roles-container {
         padding-left: 4rem;
         position: relative;
@@ -77,9 +79,17 @@
       width: 100%;
       right: 0;
       top: 0;
+      &--2 {
+        height: 25rem !important;
+        @media only screen and (max-width: 56.25em) {
+          height: 35rem !important;
+          width: 100% !important;
+          margin-top: 6rem;
+        }
+      }
 
       &--container {
-        flex: 0 0 60%;
+        flex: 0 0 50%;
         text-align: right;
         height: 55rem;
         position: relative;

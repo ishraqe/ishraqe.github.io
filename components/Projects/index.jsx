@@ -77,7 +77,7 @@ const index = () => {
             <div className={styles["section__projects--item--img--wrapper"]}>
               <Image
                 className={styles["section__projects--item--img"]}
-                src="/img/portfolio-1.jpeg"
+                src="/img/sh-app.webp"
                 alt="Portfolio images"
                 fill
               />
@@ -112,8 +112,8 @@ const index = () => {
           <div className={styles["section__projects--item--img--container"]}>
             <div className={styles["section__projects--item--img--wrapper"]}>
               <Image
-                className={styles["section__projects--item--img"]}
-                src="/img/portfolio-2.jpeg"
+                className={`${styles["section__projects--item--img"]} ${styles["section__projects--item--img--2"]}`}
+                src="/img/tga.webp"
                 alt="Portfolio images"
                 fill
               />
