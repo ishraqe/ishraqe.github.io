@@ -16,12 +16,15 @@ const index = () => {
           />
 
           <h4 className={styles["services__card--heading"]}>Web Development</h4>
-          <p className={styles["services__card--p"]}>
-            Need help with designing your mobile app or website? I can create
-            beautiful designs based on your content, or redesign old websites to
-            improve your conversions and achieve your business goals.
-          </p>
-          <a className={styles["services__card--link"]}>Contact</a>
+          <div className={styles["services__card--p"]}>
+            <ul>
+              <li>JavaScript</li>
+              <li>React </li>
+              <li>NextJs</li>
+              <li>Redux</li>
+              <li>Redux-toolkit</li>
+            </ul>
+          </div>
         </div>
         <div className={styles["services__card--item"]}>
           <Image
@@ -33,12 +36,13 @@ const index = () => {
           />
 
           <h4 className={styles["services__card--heading"]}>App Development</h4>
-          <p className={styles["services__card--p"]}>
-            Are you a Shopify store owner? I can help you design fully custom
-            landing pages, product and collection pages. Please visit my agency
-            website.
-          </p>
-          <a className={styles["services__card--link"]}>Learn more</a>
+          <div className={styles["services__card--p"]}>
+            <ul>
+              <li>React-Native</li>
+              <li>Redux</li>
+              <li>Redux-toolkit</li>
+            </ul>
+          </div>
         </div>
         <div className={styles["services__card--item"]}>
           <Image
@@ -49,13 +53,15 @@ const index = () => {
             alt="service img"
           />
 
-          <h4 className={styles["services__card--heading"]}>Education</h4>
-          <p className={styles["services__card--p"]}>
-            I&apos;ve recently become a mentor at Dribbble UI Design Course.
-            From now on you can learn design together with me and other mentors
-            at Dribbble.
-          </p>
-          <a className={styles["services__card--link"]}>Get 30% Off</a>
+          <h4 className={styles["services__card--heading"]}>Back-End</h4>
+          <div className={styles["services__card--p"]}>
+            <ul>
+              <li>NodeJs</li>
+              <li>Express</li>
+              <li>Php</li>
+              <li>Laravel</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
