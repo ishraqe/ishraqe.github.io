@@ -15,7 +15,7 @@ const index = () => {
             alt="service img"
           />
 
-          <h4 className={styles["services__card--heading"]}>Product Design</h4>
+          <h4 className={styles["services__card--heading"]}>Web Development</h4>
           <p className={styles["services__card--p"]}>
             Need help with designing your mobile app or website? I can create
             beautiful designs based on your content, or redesign old websites to
@@ -32,9 +32,7 @@ const index = () => {
             alt="service img"
           />
 
-          <h4 className={styles["services__card--heading"]}>
-            eCommerce Design
-          </h4>
+          <h4 className={styles["services__card--heading"]}>App Development</h4>
           <p className={styles["services__card--p"]}>
             Are you a Shopify store owner? I can help you design fully custom
             landing pages, product and collection pages. Please visit my agency

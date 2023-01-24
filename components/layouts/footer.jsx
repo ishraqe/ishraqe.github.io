@@ -1,5 +1,5 @@
-import Image from "next/image";
 import styles from "./footer.module.scss";
+import Logo from "./Logo";
 
 const Footer = () => {
   return (
@@ -8,22 +8,11 @@ const Footer = () => {
         <div className={styles["footer__container"]}>
           <div className={styles["footer__text"]}>
             <div className={styles["logo-footer-div"]}>
-              <Image
-                className={styles["logo"]}
-                src="/img/logo.svg"
-                alt="logo"
-                height={45}
-                width={45}
-              />
-              <p>
-                Kristina Volcheck
-                <br />
-                Senior Product Designer
-              </p>
+              <Logo />
             </div>
           </div>
           <div className={styles["footer__copyright"]}>
-            <p class="footer-copywright-p">
+            <p className="footer-copywright-p">
               © {new Date().getFullYear()} Anamul Haque
             </p>
           </div>

@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react";
 import { Turn as Hamburger } from "hamburger-react";
-
+import Image from "next/image";
 import NavMenu from "./NavMenu";
 import styles from "./header.module.scss";
+import Logo from "./Logo";
 
 const Header = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -31,9 +32,7 @@ const Header = () => {
     >
       <div className="container" style={{ height: "100%" }}>
         <div className={styles["nav__container"]}>
-          <div className={styles["logo-container"]}>
-            <span className={styles["logo"]}>Anamul</span>
-          </div>
+          <Logo />
           <div className={styles["nav-menu"]}>
             <NavMenu toggleMobileMenu={() => {}} />
             <a

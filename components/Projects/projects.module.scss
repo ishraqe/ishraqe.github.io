@@ -9,7 +9,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: flex-start;
-    height: 55rem;
+    min-height: 55rem;
     @media only screen and (max-width: 56.25em) {
       height: 100%;
       flex-direction: column;
@@ -81,7 +81,7 @@
       &--container {
         flex: 0 0 60%;
         text-align: right;
-        height: 100%;
+        height: 55rem;
         position: relative;
         @media only screen and (max-width: 56.25em) {
           flex: none;

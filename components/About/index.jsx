@@ -10,31 +10,50 @@ const index = () => {
       <div className={styles["section__about--intro"]}>
         <SectionIntro text="About" />
         <p className={styles["section__about--intro--desc"]}>
-          I wasn’t always a designer. In a previous chapter of my life I worked
-          for large tech companies as a director of marketing - managing a
-          marketing team of over 50 people.
+          Front-end developer with more than 4 years of experience ,
+          successfully managed and launched three (NextJs web application) and
+          one React Native App. Strength in NextJs and React - Redux ecosystem.
+          <br></br>
+          <br></br>I started my career with TGA Limited (Fromerly known as
+          Freemig Inc.) as a junior front-end developer.
           <br></br>
           <br></br>
-          In 2019, I quit my job, became a freelance designer and co-founded
-          Alioned Agency. I wanted to help small businesses find their voice and
-          establish a professional but friendly online presence. I love that my
-          work really makes a difference for entrepreneurs and family-owned
-          businesses
+          In 2019 I moved from Banglades to Malaysia to persue my career in
+          Speedhome Sdn. Bhd. where grew the most. When I joined there as a
+          junior dev having knowledge of basic html , css , js and react -
+          redux. Gradually I was introduced to lots of aspects to developments ,
+          technically and managerial. I later learned NextJs, Redux-toolkit,
+          Rtk-query, Tailwind, Material Ui. I learned various architecture
+          related stuff, how to improve web application performance, and how to
+          work in an agile and kanban way. How to manage a team and lots of soft
+          skills.
           <br></br>
           <br></br>
-          All my design work passes through the lens of my experience as a
-          marketer. I call it marketing design. It’s about analyzing the
-          effectiveness of a design using objective marketing data - not just
-          opinion.
-          <br></br>
-          <br></br>
-          eCommerce is a field where this is especially effective. I love that a
-          thoughtful redesign can directly increase a stores revenue. Check out
-          my article: Designing for Conversions.
-          <br></br>
-          <br></br>
-          Heart Icon | Good Design I love good design, photography, wine,
-          travel, sport, languages and books
+          The projects that benefited from me will be{" "}
+          <a
+            className="external_link"
+            href="https://speedhome.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            speedhome.com
+          </a>{" "}
+          and{" "}
+          <a
+            className="external_link"
+            href="https://speedmanage.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            speedmanage.com
+          </a>
+          I This websites includes a few features like chat request, insurance
+          amount calculation, live chat (built with socket.io), dashboard
+          management, collecting rent (for landlords) etc. We used NextJs,
+          Redux-toolkit , material ui to name a few technologies. For testing we
+          used Jest and Cypress. We did lots of performance improvements
+          throughout the project to serve the website as fast as possible (we
+          achieved around 17% improvement on google pagespeed score).
         </p>
       </div>
       <div

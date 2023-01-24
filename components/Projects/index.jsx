@@ -18,35 +18,58 @@ const index = () => {
                     Lead Front-End Developer - Feb 2021 - Present
                   </div>
                   <p>
-                    Sweatcoin is an app with 100M+ users that rewards you for
-                    steps. I joined Sweatcoin in May 2021 and since then
-                    continue creating amazing features together with the Growth
-                    Team.
+                    Helped design, code, and modify web pages that are focused
+                    on and contained within the standards, guidelines, and
+                    requirements, Worked with Product Owners, Stakeholders, and
+                    other team members as appropriate.
                     <br />
                     <br />
-                    Each feature we work on goes through a lot of testing &
-                    experiments, making my work at Sweatcoin really dynamic and
-                    interesting.
+                    Improved application performance in several areas at
+                    different extents up to ~35%
+                    <br />
+                    <br />
+                    Spearheaded and coached a team developing API integration
+                    with other enterprises and maintaining high-traffic,
+                    feature-rich web applications.
+                    <br />
+                    <br />
+                    Tested, coded, reviewed, and delivered software with 100%
+                    on-time record and according to service level objectives.
+                    <br />
+                    <br />
+                    Overhauled Bitbucket CI/CD pipeline which increased code
+                    delivery speed.
+                    <br />
+                    <br />
+                    Implemented automated testing tools such as Jest and Cypress
+                    to improve the accuracy of the project.
                   </p>
                 </div>
                 <br />
                 <br />
                 <div className={styles["roles-container"]}>
                   <div className={styles["section__projects--item--tag"]}>
-                    Lead Front-End Developer - Feb 2021 - Present
+                    Sr. Front-End Developer - May 2019 - January 2021
                   </div>
                   <p>
-                    Sweatcoin is an app with 100M+ users that rewards you for
-                    steps. I joined Sweatcoin in May 2021 and since then
-                    continue creating amazing features together with the Growth
-                    Team.
+                    Converted and Re-written two projects with NextJs from Java
+                    Thymeleaf.
                     <br />
                     <br />
-                    Each feature we work on goes through a lot of testing &
-                    experiments, making my work at Sweatcoin really dynamic and
-                    interesting.
+                    Implemented functional tests, and debugging tools for web
+                    applications.
+                    <br />
+                    <br />
+                    Introduced centralized state management tools like Redux,
+                    Redux toolkit, and Rtk query.
+                    <br />
+                    <br />
+                    Helped develop the hybrid mobile application with
+                    React-Native.
                   </p>
                 </div>
+                <br />
+                <br />
               </div>
             </div>
           </div>
@@ -72,26 +95,15 @@ const index = () => {
                     Lead Front-End Developer - Feb 2021 - Present
                   </div>
                   <p>
-                    Sweatcoin is an app with 100M+ users that rewards you for
-                    steps. I joined Sweatcoin in May 2021 and since then
-                    continue creating amazing features together with the Growth
-                    Team.
+                    Developed web application with VueJs
                     <br />
                     <br />
-                    Each feature we work on goes through a lot of testing &
-                    experiments, making my work at Sweatcoin really dynamic and
-                    interesting.
+                    Managed complex states with VueX
                     <br></br>
                     <br></br>
-                    Sweatcoin is an app with 100M+ users that rewards you for
-                    steps. I joined Sweatcoin in May 2021 and since then
-                    continue creating amazing features together with the Growth
-                    Team.
-                    <br />
-                    <br />
-                    Each feature we work on goes through a lot of testing &
-                    experiments, making my work at Sweatcoin really dynamic and
-                    interesting.
+                    Worked with the UI/UX and backend team closely, converting
+                    the design to mockup & web pages and integrating front-end &
+                    backend with API
                   </p>
                 </div>
               </div>
