@@ -34,26 +34,58 @@
     }
     &--desc {
       flex: 0 0 50%;
-      .roles-container {
+      .roles-container,
+      .project--link {
         padding-left: 4rem;
         position: relative;
-        &::before {
-          content: "";
-          display: inline-block;
-          height: 2rem;
-          width: 2rem;
-          background-color: #777;
-          position: absolute;
-          border-radius: 1.6rem;
-          left: -1.4rem;
-          top: -0.1rem;
-          @media only screen and (max-width: 56.25em) {
-            left: -1.5rem;
-            top: 0.3rem;
+      }
+      .roles-container::before {
+        content: "";
+        display: inline-block;
+        height: 2rem;
+        width: 2rem;
+        background-color: #777;
+        position: absolute;
+        border-radius: 1.6rem;
+        left: -1.4rem;
+        top: -0.1rem;
+        @media only screen and (max-width: 56.25em) {
+          left: -1.5rem;
+          top: 0.3rem;
+        }
+        @media only screen and (max-width: 37.5em) {
+          left: -1.35rem;
+          top: 0.3rem;
+        }
+      }
+      .project--link {
+        margin-top: 2rem;
+        h5 {
+          color: #0d0c22;
+          margin-bottom: 1rem;
+        }
+        li {
+          color: #5c5b66;
+          &:not(:last-child) {
+            margin-bottom: 0.5rem;
           }
-          @media only screen and (max-width: 37.5em) {
-            left: -1.35rem;
-            top: 0.3rem;
+        }
+        a {
+          cursor: pointer;
+          color: #ff8d4d;
+          margin-left: 1rem;
+          &:hover {
+            color: #f4494e;
+          }
+        }
+        .app-link {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          &-store {
+            &:not(las-child) {
+              margin-right: 1rem;
+            }
           }
         }
       }

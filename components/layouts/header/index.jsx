@@ -3,7 +3,7 @@ import { Turn as Hamburger } from "hamburger-react";
 import Image from "next/image";
 import NavMenu from "./NavMenu";
 import styles from "./header.module.scss";
-import Logo from "./Logo";
+import Logo from "../logo/Logo";
 
 const Header = () => {
   const [scrollY, setScrollY] = useState(0);

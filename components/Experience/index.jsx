@@ -68,6 +68,68 @@ const index = () => {
                     React-Native.
                   </p>
                 </div>
+
+                <div className={styles["project--link"]}>
+                  <h5>Project links: </h5>
+                  <ul>
+                    <li>
+                      <span className="tag">Speedhome: </span>
+                      <a
+                        className="link"
+                        target="_blank"
+                        href="https://speedhome.com/"
+                        rel="noreferrer"
+                      >
+                        https://speedhome.com/
+                      </a>
+                    </li>
+                    <li>
+                      <span className="tag">Speedmanage: </span>
+                      <a
+                        className="link"
+                        target="_blank"
+                        href="https://speedmanage.com/"
+                        rel="noreferrer"
+                      >
+                        https://speedmanage.com/
+                      </a>
+                    </li>
+                    <li className={styles["app-link"]}>
+                      <span className="tag">App Speedhome: </span>
+                      <span>
+                        <a
+                          className="link"
+                          target="_blank"
+                          href="https://play.google.com/store/apps/details?id=com.speedrent&hl=en&gl=US"
+                          rel="noreferrer"
+                        >
+                          <Image
+                            src="/img/playstore.png"
+                            height={40}
+                            width={40}
+                            alt="playstore"
+                            className={styles["app-link-store"]}
+                          ></Image>
+                        </a>
+
+                        <a
+                          className="link"
+                          target="_blank"
+                          href="https://apps.apple.com/my/app/speedrent-property-rental/id998232868"
+                          rel="noreferrer"
+                        >
+                          <Image
+                            src="/img/appstore.png"
+                            height={40}
+                            width={40}
+                            alt="appstore"
+                            className={styles["app-link-store"]}
+                          ></Image>
+                        </a>
+                      </span>
+                    </li>
+                  </ul>
+                </div>
                 <br />
                 <br />
               </div>

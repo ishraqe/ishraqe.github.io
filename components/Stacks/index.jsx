@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "./services.module.scss";
+import styles from "./stacks.module.scss";
 
 const index = () => {
   return (
@@ -16,18 +16,22 @@ const index = () => {
           />
 
           <h4 className={styles["services__card--heading"]}>Web Development</h4>
-          <div className={styles["services__card--p"]}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi sunt
-            porro, numquam saepe eius eaque, laudantium, doloremque neque
-            voluptatem obcaecati vero tempore omnis rem sit itaque aperiam
-            nesciunt repellendus quasi.
-          </div>
+          {/* <div className={styles["services__card--p"]}>
+            I have been working as front-end developer almost 5 years now. In my
+            years of experience i have built many projects and used many
+            language and technologies. So far im most experience with the
+            following skills:
+          </div> */}
           <ul>
             <li>JavaScript</li>
+            <li>Typescript</li>
             <li>React </li>
             <li>NextJs</li>
-            <li>Redux</li>
-            <li>Redux-toolkit</li>
+            <li>Redux, Redux-toolkit</li>
+            <li>MobX, MST (MobX State Tree)</li>
+            <li>Css, Scss, Bootstrap, Material-UI, Tailwind Css</li>
+            <li>NodeJs, ExpressJs</li>
+            <li>Vue, VueX</li>
           </ul>
         </div>
         <div className={styles["services__card--item"]}>
@@ -40,39 +44,16 @@ const index = () => {
           />
 
           <h4 className={styles["services__card--heading"]}>App Development</h4>
-          <div className={styles["services__card--p"]}>
+          {/* <div className={styles["services__card--p"]}>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Consectetur molestiae temporibus eaque maiores fuga beatae aliquid!
             A neque, nihil mollitia quis accusantium iste et perspiciatis eum,
             placeat, voluptatem totam. Nisi.
-          </div>
+          </div> */}
           <ul>
             <li>React-Native</li>
             <li>Redux</li>
             <li>Redux-toolkit</li>
-          </ul>
-        </div>
-        <div className={styles["services__card--item"]}>
-          <Image
-            className={styles["services__card--img"]}
-            src="/img/server.png"
-            width={55}
-            height={55}
-            alt="service img"
-          />
-
-          <h4 className={styles["services__card--heading"]}>Back-End</h4>
-          <div className={styles["services__card--p"]}>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia,
-            beatae. Enim illum rerum quisquam sint dolorum neque, qui expedita
-            reiciendis. Qui excepturi consequatur error quasi repellat et,
-            corporis saepe veniam!
-          </div>
-          <ul>
-            <li>NodeJs</li>
-            <li>Express</li>
-            <li>Php</li>
-            <li>Laravel</li>
           </ul>
         </div>
         <div className={styles["services__card--item"]}>
@@ -85,18 +66,18 @@ const index = () => {
           />
 
           <h4 className={styles["services__card--heading"]}>Other</h4>
-          <div className={styles["services__card--p"]}>
+          {/* <div className={styles["services__card--p"]}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
             quis consequatur laudantium animi eius optio obcaecati, libero, nemo
             nisi necessitatibus architecto deserunt consectetur laboriosam totam
             facilis commodi atque minus dolor?
-          </div>
+          </div> */}
           <ul>
             <li>Git</li>
             <li>Bitbucket CI/CD</li>
             <li>Jest/Cypress</li>
             <li>Webpack</li>
-            <li>Sql/NoSql</li>
+            <li>MySql, MongoDB, Firebase</li>
           </ul>
         </div>
       </div>

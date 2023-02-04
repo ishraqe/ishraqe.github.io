@@ -7,7 +7,7 @@
   &--item {
     display: flex;
     flex-direction: column;
-    flex: 0 0 48%;
+    flex: 0 0 29%;
     margin-bottom: 4rem;
     // @media only screen and (max-width: 56.25em) {
     //   flex-basis: 29%;
@@ -17,6 +17,10 @@
     // @media only screen and (max-width: 37.5em) {
     //   flex-basis: 29%;
     // }
+    ul {
+      list-style-type: disc;
+      margin-left: 1.5rem;
+    }
   }
   &--img {
     margin-bottom: 2.5rem;
