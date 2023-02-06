@@ -24,7 +24,13 @@ const SocialIconBlock = () => {
   return (
     <div className={styles["social-icons-block"]}>
       {socialDB.map(({ name, link }) => (
-        <a key={name} href={link} className={styles["social-link"]}>
+        <a
+          key={name}
+          href={link}
+          target="_blank"
+          className={styles["social-link"]}
+          rel="noreferrer"
+        >
           <div className="contact-icon-svg">
             <Image
               src={`/img/social/${name}.svg`}
