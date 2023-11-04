@@ -1,6 +1,6 @@
-import SectionIntro from "components/common/section-intro";
+import SectionIntro from "@/components/common/section-intro";
 import styles from "./experience.module.scss";
-import { Portfolio } from "./const";
+import { Portfolio } from "../../const";
 import { ExperienceItem } from "./experience-item";
 const index = () => {
   return (

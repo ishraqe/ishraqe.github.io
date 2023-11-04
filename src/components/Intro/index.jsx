@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./intro.module.scss";
-import SocialIconBlock from "components/common/social-icon/social-icon";
+import SocialIconBlock from "@/components/common/social-icon/social-icon";
 
 const Intro = () => {
   return (

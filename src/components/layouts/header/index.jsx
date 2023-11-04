@@ -4,6 +4,7 @@ import Image from "next/image";
 import NavMenu from "./NavMenu";
 import styles from "./header.module.scss";
 import Logo from "../logo/Logo";
+import { CV_LINK } from "@/const";
 
 const Header = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -36,7 +37,7 @@ const Header = () => {
           <div className={styles["nav-menu"]}>
             <NavMenu toggleMobileMenu={() => {}} />
             <a
-              href="https://drive.google.com/file/d/1Z34TlXQpZeQ-W_BK2D0KfTAsadCUnRTS/view?usp=sharing"
+              href={CV_LINK}
               target="_blank"
               rel="noreferrer"
               className="btn btn-filled"

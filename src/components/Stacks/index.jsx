@@ -27,6 +27,7 @@ const index = () => {
             <li>Typescript</li>
             <li>React </li>
             <li>NextJs</li>
+            <li>NestJs, Strapi</li>
             <li>Redux, Redux-toolkit</li>
             <li>MobX, MST (MobX State Tree)</li>
             <li>Css, Scss, Bootstrap, Material-UI, Tailwind Css</li>
@@ -77,6 +78,7 @@ const index = () => {
             <li>Bitbucket CI/CD</li>
             <li>Jest/Cypress</li>
             <li>Webpack</li>
+            <li>AWS</li>
             <li>MySql, MongoDB, Firebase</li>
           </ul>
         </div>

@@ -10,7 +10,7 @@ export const Portfolio = [
       {
         jobTitle: "Software Engineer",
         duration: {
-          stat: "Mar 2023",
+          start: "Mar 2023",
           end: "Present"
         },
         responsibilites: [
@@ -48,7 +48,7 @@ export const Portfolio = [
       {
         jobTitle: "Lead Front-End Developer",
         duration: {
-          stat: "Feb 2021",
+          start: "Feb 2021",
           end: "Feb 2023"
         },
         responsibilites: [
@@ -72,7 +72,7 @@ export const Portfolio = [
       {
         jobTitle: "Sr. Front-End Developer",
         duration: {
-          stat: "May 2019",
+          start: "May 2019",
           end: "January 2021"
         },
         responsibilites: [
@@ -121,7 +121,7 @@ export const Portfolio = [
       {
         jobTitle: "Jr Front-End Developer",
         duration: {
-          stat: "Feb 2018",
+          start: "Feb 2018",
           end: "Mar 2019"
         },
         responsibilites: [
@@ -139,6 +139,9 @@ export const Portfolio = [
     }
   }
 ];
+
+export const CV_LINK =
+  "https://drive.google.com/file/d/16ix87zcFVwamhMKYEmg_BxjmTbhwwcQB/view?usp=drive_link";
 
 export const ANDROID_APP_ICON = "/img/playstore.png";
 export const IOS_APP_ICON = "/img/appstore.png";

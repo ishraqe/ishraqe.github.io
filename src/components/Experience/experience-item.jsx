@@ -1,3 +1,4 @@
+import { ANDROID_APP_ICON, IOS_APP_ICON } from "../../const";
 import styles from "./experience.module.scss";
 import Image from "next/image";
 
@@ -82,7 +83,11 @@ export const ExperienceItem = ({ portfolio }) => {
                             key={app.type}
                           >
                             <Image
-                              src={app.link}
+                              src={
+                                app.type === "ios"
+                                  ? IOS_APP_ICON
+                                  : ANDROID_APP_ICON
+                              }
                               height={40}
                               width={40}
                               alt={app.type}
