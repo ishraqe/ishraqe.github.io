@@ -1,5 +1,5 @@
 import styles from "./about.module.scss";
-import SectionIntro from "components/utils/section-intro";
+import SectionIntro from "components/common/section-intro";
 
 const index = () => {
   return (

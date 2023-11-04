@@ -1,8 +1,8 @@
 import { useState } from "react";
 
-import SectionIntro from "components/utils/section-intro";
+import SectionIntro from "components/common/section-intro";
 import styles from "./contact.module.scss";
-import SocialIconBlock from "components/utils/social-icon/social-icon";
+import SocialIconBlock from "components/common/social-icon/social-icon";
 
 const Contact = () => {
   const [body, setBody] = useState("");
