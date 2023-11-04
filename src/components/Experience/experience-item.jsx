@@ -3,7 +3,6 @@ import styles from "./experience.module.scss";
 import Image from "next/image";
 
 export const ExperienceItem = ({ portfolio }) => {
-  console.log({ portfolio });
   return (
     <div className={styles["section__projects--item"]}>
       <div className={styles["section__projects--item--desc"]}>
