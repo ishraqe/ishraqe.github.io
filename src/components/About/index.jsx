@@ -10,7 +10,7 @@ const index = () => {
       <div className={styles["section__about--intro"]}>
         <SectionIntro text="About" />
         <p className={styles["section__about--intro--desc"]}>
-          Experienced Front-End Developer with more than 4 years in the
+          Experienced Front-End Developer with more than 5 years in the
           industry. Proficient with React ecosystem and frameworks(NextJs,
           React-Native). Having a great passion for front- end development with
           a good problem-solving aptitude to enhance application performance. I

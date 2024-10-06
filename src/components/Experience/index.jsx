@@ -2,6 +2,8 @@ import SectionIntro from "@/components/common/section-intro";
 import styles from "./experience.module.scss";
 import { Portfolio } from "../../const";
 import { ExperienceItem } from "./experience-item";
+
+import "react-vertical-timeline-component/style.min.css";
 const index = () => {
   return (
     <section className="section-padding" id="portfolio-section">
